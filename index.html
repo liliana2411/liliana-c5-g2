@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PORTAL DE ESTUDIANTE UPEU</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(241, 241, 241);
+    color: #111010;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #fff; /* El texto principal en blanco */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Encabezado y Navegación */
+header {
+    background-color: #ee05c7;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Secciones generales */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff; /* Colores de texto blanco por defecto */
+}
+
+/* Sección Inicio */
+#inicio {
+    background-color: #09ceff; /* Azul claro */
+}
+
+#inicio p {
+    font-size: 1.2rem;
+    color: #e0e0e0; /* Texto en gris claro */
+}
+
+/* Sección Bibliografía */
+#bibliografia {
+    background-color: #d0ff00; /* Verde */
+}
+
+#bibliografia p {
+    font-size: 1.1rem;
+    color: #e0e0e0; /* Texto en gris claro */
+}
+
+/* Sección Habilidades */
+#habilidades {
+    background-color: #6933ff; /* Naranja */
+}
+
+#habilidades ul {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+#habilidades ul li {
+    margin: 10px 0;
+}
+
+/* Sección Proyectos */
+#proyectos {
+    background-color: #ee6910; /* Cian */
+}
+
+.project {
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 20px;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project a {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.project a:hover {
+    color: #0056b3;
+}
+
+/* Sección Contacto */
+#contacto {
+    background-color: #6f42c1; /* Morado */
+}
+
+#contacto a {
+    color: #ffdd57;
+}
+
+#contacto a:hover {
+    color: #ffeaa7;
+}
+
+#contacto ul {
+    margin-top: 20px;
+}
+
+#contacto ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#contacto p {
+    color: #f8f9fa;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Diseño adaptable (Responsive) */
+@media (max-width: 768px) {
+    .section {
+        padding: 40px 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #contacto ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#bibliografia">Bibliografía</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <h1>liliana yaquelin quispe quispe </h1>
+    </header>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio" class="section">
+        <h2>Inicio</h2>
+        <p>mi nombre es liliana yaquelin quispe quispe  . Soy una chica universitaria que estudia actualmente la carrera de administracion . Esta es mi página personal, donde podrás conocer más sobre mis habilidades, proyectos y cómo contactarme.</p>
+        <img src="descargas.jpg" alt="Descripción de la imagen" class="header-image">
+    </section>
+
+    <!-- Sección de Bibliografía -->
+    <section id="bibliografia" class="section">
+        <h2>Bibliografía</h2>
+        <p>Soy un chica universitaria que estudia la carrera de administracion que va en quinto semestre  y ahora me encuentro practicando   en la creación de páginas web y aplicaciones.  y siempre estoy buscando aprender nuevas habilidades.</p>
+        <video controls width="600">
+            <source src="CEPRE UPeU 2021.mp4" type="video/mp4">
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section id="habilidades" class="section">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>React.js / Vue.js</li>
+            <li>photoshop </li>
+            <li>Git & GitHub</li>
+            <li>Diseño Responsivo</li>
+        </ul>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section id="proyectos" class="section">
+        <h2>Proyectos</h2>
+        <div class="project">
+            <h3>Proyecto 1: creacion de pagina web  </h3>
+            <p> consiste en la creacion de una pagina  web html  </p>
+            <a href="[URL del proyecto]" target="_blank">Ver proyecto</a>
+        </div>
+        <div class="project">
+            <h3>Proyecto 2: diseño e paginas web  </h3>
+            <p>crear paginas con la ayuda de la inteligencia artificial y diseñarlas </p>
+            <a href="[URL del proyecto]" target="_blank">Ver proyecto</a>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <p>Si deseas contactarme, puedes hacerlo a través del siguiente correo electrónico: <a href="mailto:tucorreo@ejemplo.com">tucorreo@ejemplo.com</a></p>
+        <p>O seguirme en mis redes sociales:</p>
+        <ul>
+            <li><a href="[URL de LinkedIn]" target="_blank">LinkedIn</a></li>
+            <li><a href="[URL de GitHub]" target="_blank">GitHub</a></li>
+            <li><a href="[URL de Twitter]" target="_blank">Twitter</a></li>
+        </ul>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
